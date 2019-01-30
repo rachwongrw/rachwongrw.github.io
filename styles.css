@@ -1,0 +1,72 @@
+main {
+  font-family: pt sans, sans-serif;
+  font-size: 15px;
+  color: #444;
+  margin: 30px 80px 50px 320px;
+  text-align: left;
+  line-height: 20px;
+  max-width: 900px;
+}
+main a {
+  color: #000;
+  text-decoration: none;
+}
+main a:hover {
+  color: #188355;
+  text-decoration: none;
+}
+main h1 {
+  font-weight: bolder;
+  font-size: 1.3em;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  line-height: 35px;
+  color: #000;
+}
+main h1:after {
+  content: "";
+  margin-left: 10px;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+  overflow: hidden;
+  justify-content: space-around;
+}
+main h2, main h3 {
+  color: #000;
+  font-size: 2em;
+  font-weight: bolder;
+}
+main h3 {
+  font-size: 1.1em;
+}
+main .date {
+  font-style: italic;
+}
+main #experience .row {
+  line-height: 25px;
+  padding: 1px;
+}
+main #experience .row .col-md-6 {
+  padding-left: 21% !important;
+  margin-right: -14% !important;
+}
+main #pdfSkills {
+  display: none;
+}
+main #pdfTitle {
+  font-size: 1em;
+  text-align: center;
+  display: none;
+  width: 100%;
+}
+main #mobileContact {
+  display: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
