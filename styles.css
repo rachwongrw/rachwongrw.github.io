@@ -15,7 +15,7 @@ main a:hover {
   color: #188355;
   text-decoration: none;
 }
-main h1 {
+main h1, main #sidebar h3, #sidebar main h3 {
   font-weight: bolder;
   font-size: 1.3em;
   text-align: left;
@@ -27,7 +27,7 @@ main h1 {
   line-height: 35px;
   color: #000;
 }
-main h1:after {
+main h1:after, main #sidebar h3:after, #sidebar main h3:after {
   content: "";
   margin-left: 10px;
   display: inline-block;
@@ -67,6 +67,99 @@ main #pdfTitle {
 }
 main #mobileContact {
   display: none;
+}
+
+/* SIDEBAR */
+#sidebar {
+  font-family: pt sans, sans-serif;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 290px;
+  padding: 145px 10px 0 25px;
+  font-size: 12px;
+  background: #fff;
+  z-index: 1;
+}
+#sidebar a {
+  color: #000;
+  text-decoration: none;
+}
+#sidebar a:hover {
+  color: #188355;
+  text-decoration: none;
+}
+#sidebar ul li {
+  list-style: none;
+}
+#sidebar h1, #sidebar h3 {
+  color: #000;
+  font-size: 1.7em;
+  font-weight: bolder;
+  line-height: 0px;
+  text-transform: uppercase;
+}
+#sidebar h2, #sidebar main h3, main #sidebar h3 {
+  color: #555;
+  font-size: 1.1em;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+#sidebar h3 {
+  font-size: 130%;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-transform: uppercase;
+  line-height: 35px;
+}
+#sidebar h3:after {
+  content: "";
+  margin-left: 10px;
+  display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  border-bottom: 1px solid;
+  overflow: hidden;
+  justify-content: space-around;
+}
+#sidebar img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+}
+#sidebar .row {
+  overflow: auto;
+  vertical-align: top;
+  font-size: 1em;
+  margin: auto;
+  padding-left: 25px;
+}
+#sidebar .row .col-xs-1 {
+  display: inline;
+  padding: 13px 0px;
+}
+#sidebar .row .col-xs-1 img {
+  width: 18px;
+}
+#sidebar .row .col-xs-11 {
+  display: inline;
+}
+#sidebar #skills {
+  padding-right: 10px;
+}
+#sidebar #skills b {
+  font-style: none;
+  font-weight: bolder;
+  font-size: 1.1em;
+  color: #188355;
+}
+#sidebar #genPDF:hover {
+  color: #188355;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
