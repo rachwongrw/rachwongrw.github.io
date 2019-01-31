@@ -1,5 +1,4 @@
-$green: darken(#1C9963, 5%);
-$blue: darken(#219FD4, 10%);
+$blue: #7ba7af; // #bde0e6 - colour from the CV!
 
 main {
   font-family: pt sans, sans-serif;
@@ -13,7 +12,7 @@ main {
 	color: #000;
 	text-decoration: none;
     &:hover {
-    color: $green;
+    color: $blue;
     text-decoration: none;
     }
   }
@@ -93,7 +92,7 @@ main {
   color: #000;
   text-decoration: none;
     &:hover {
-    color: $green;
+    color: $blue;
     text-decoration: none;
     }
   }
@@ -145,13 +144,11 @@ main {
     vertical-align: top;
     font-size: 1em;
     margin: auto;
-    padding-left: 25px;
+    padding-left: 1em;
     .col-xs-1 {
       display: inline;
-      padding: 13px 0px;
-      img {
-        width: 18px;
-      }
+      padding: 1px 0px;
+      padding-bottom: 0.5em;
     }
     .col-xs-11 {
       display: inline;
@@ -163,12 +160,12 @@ main {
       font-style: none;
       font-weight: bolder;
       font-size: 1.1em;
-      color: $green;
+      color: $blue
     }
   }
   #genPDF {
     &:hover {
-      color: $green;
+      color: $blue;
       text-decoration: none;
       cursor: pointer;
     }

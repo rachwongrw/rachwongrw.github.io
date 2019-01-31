@@ -12,7 +12,7 @@ main a {
   text-decoration: none;
 }
 main a:hover {
-  color: #188355;
+  color: #7ba7af;
   text-decoration: none;
 }
 main h1, main #sidebar h3, #sidebar main h3 {
@@ -87,7 +87,7 @@ main #mobileContact {
   text-decoration: none;
 }
 #sidebar a:hover {
-  color: #188355;
+  color: #7ba7af;
   text-decoration: none;
 }
 #sidebar ul li {
@@ -135,14 +135,12 @@ main #mobileContact {
   vertical-align: top;
   font-size: 1em;
   margin: auto;
-  padding-left: 25px;
+  padding-left: 1em;
 }
 #sidebar .row .col-xs-1 {
   display: inline;
-  padding: 13px 0px;
-}
-#sidebar .row .col-xs-1 img {
-  width: 18px;
+  padding: 1px 0px;
+  padding-bottom: 0.5em;
 }
 #sidebar .row .col-xs-11 {
   display: inline;
@@ -154,10 +152,10 @@ main #mobileContact {
   font-style: none;
   font-weight: bolder;
   font-size: 1.1em;
-  color: #188355;
+  color: #7ba7af;
 }
 #sidebar #genPDF:hover {
-  color: #188355;
+  color: #7ba7af;
   text-decoration: none;
   cursor: pointer;
 }
