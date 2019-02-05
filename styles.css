@@ -86,6 +86,10 @@ main #mobileContact {
   justify-content: space-around;
 }
 
+.project-img {
+  width: 70%;
+}
+
 /* SIDEBAR */
 #profile-pic {
   border: 0.7em solid whitesmoke;
