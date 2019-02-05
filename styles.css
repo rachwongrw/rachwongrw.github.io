@@ -82,7 +82,8 @@ main #mobileContact {
 }
 
 .icon {
-  width: 1em;
+  width: 2.5em;
+  margin: 0em 0.5em;
 }
 
 #sidebar {
