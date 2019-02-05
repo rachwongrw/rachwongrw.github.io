@@ -77,6 +77,21 @@ main {
 
 /* SIDEBAR */
 
+.profile-pic {
+  border: 0.7em solid whitesmoke;
+  border-radius: 50%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+
+.icon {
+  width: 1em;
+}
+
 #sidebar {
   font-family: pt sans, sans-serif;
   position: fixed;
@@ -131,16 +146,6 @@ main {
       overflow: hidden;
       justify-content: space-around;
     }
-  }
-  .profile-pic {
-    border: 0.7em solid whitesmoke;
-    border-radius: 50%;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    margin-top: 1em;
-    margin-bottom: 2.5em;
   }
   .row {
     overflow: auto;
