@@ -26,7 +26,7 @@ main {
     padding-top: 20px;
     padding-bottom: 10px;
     line-height: 35px;
-    color: #000;
+    color: $blue;
     &:after {
       content: "";
       margin-left: 10px;
@@ -84,7 +84,6 @@ main {
   bottom: 0; 
   left: 0;
   width:290px;
-  padding: 145px 10px 0 25px;
   font-size: 12px;
   background: #fff;
   z-index: 1;
@@ -134,17 +133,14 @@ main {
     }
   }
   img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 90%;
-  }
-  #profile-pic {
     border: 0.7em solid whitesmoke;
     border-radius: 50%;
-    width: 60%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
     margin-top: 1em;
+    margin-bottom: 2.5em;
   }
   .row {
     overflow: auto;
@@ -223,6 +219,6 @@ main {
 
   #pdfSkills b {
     font-weight: bolder;
-    color: #188355;
+    color: $blue;
   } 
 }
