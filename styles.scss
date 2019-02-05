@@ -139,6 +139,13 @@ main {
     left: 0;
     width: 90%;
   }
+  img#profile-pic {
+    border: 0.7em solid whitesmoke;
+    border-radius: 50%;
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 1em;
+  }
   .row {
     overflow: auto;
     vertical-align: top;
