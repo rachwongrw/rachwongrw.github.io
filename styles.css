@@ -25,7 +25,7 @@ main h1, main #sidebar h3, #sidebar main h3 {
   padding-top: 20px;
   padding-bottom: 10px;
   line-height: 35px;
-  color: #000;
+  color: #7ba7af;
 }
 main h1:after, main #sidebar h3:after, #sidebar main h3:after {
   content: "";
@@ -70,6 +70,21 @@ main #mobileContact {
 }
 
 /* SIDEBAR */
+.profile-pic {
+  border: 0.7em solid whitesmoke;
+  border-radius: 50%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 2.5em;
+}
+
+.icon {
+  width: 1em;
+}
+
 #sidebar {
   font-family: pt sans, sans-serif;
   position: fixed;
@@ -77,7 +92,6 @@ main #mobileContact {
   bottom: 0;
   left: 0;
   width: 290px;
-  padding: 145px 10px 0 25px;
   font-size: 12px;
   background: #fff;
   z-index: 1;
@@ -124,12 +138,6 @@ main #mobileContact {
   overflow: hidden;
   justify-content: space-around;
 }
-#sidebar img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 90%;
-}
 #sidebar .row {
   overflow: auto;
   vertical-align: top;
@@ -158,6 +166,60 @@ main #mobileContact {
   color: #7ba7af;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 780px) {
+  #sidebar {
+    display: none;
+  }
+
+  main {
+    margin: 20px 20px;
+  }
+
+  main #pdfSkills {
+    display: inline-block;
+  }
+
+  main #pdfTitle {
+    display: inline-block;
+    margin: 0px;
+  }
+
+  main #pdfTitle h2, main #pdfTitle h3 {
+    font-size: 1.5em;
+    margin: 10px 2px 4px;
+  }
+
+  main #pdfTitle h3 {
+    font-size: 0.8em;
+    margin: 2px;
+  }
+
+  main h1, main #sidebar h3, #sidebar main h3 {
+    margin-top: 5px;
+  }
+
+  #animation {
+    width: 60%;
+  }
+
+  #summary {
+    padding-top: 0px;
+  }
+
+  #summary h1, #summary #sidebar h3, #sidebar #summary h3 {
+    margin-top: 0px;
+  }
+
+  .mobile-icon {
+    width: 5%;
+  }
+
+  #pdfSkills b {
+    font-weight: bolder;
+    color: #7ba7af;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
