@@ -69,6 +69,22 @@ main #mobileContact {
   display: none;
 }
 
+.icon {
+  width: 2.5em;
+  margin: 0em 1.5em;
+}
+
+.description {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.hobby-icons {
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
 /* SIDEBAR */
 #profile-pic {
   border: 0.7em solid whitesmoke;
@@ -79,11 +95,6 @@ main #mobileContact {
   display: block;
   margin-top: 1em;
   margin-bottom: 2.5em;
-}
-
-.icon {
-  width: 2.5em;
-  margin: 0em 1.5em;
 }
 
 #sidebar {

@@ -74,6 +74,21 @@ main {
   }
 }
 
+.icon {
+  width: 2.5em;
+  margin: 0em 1.5em;
+}
+
+.description {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.hobby-icons {
+  text-align: center;
+  width: 100%;
+  justify-content: space-around;
+}
 
 /* SIDEBAR */
 
@@ -86,11 +101,6 @@ main {
   display: block;
   margin-top: 1em;
   margin-bottom: 2.5em;
-}
-
-.icon {
-  width: 2.5em;
-  margin: 0em 1.5em;
 }
 
 #sidebar {
