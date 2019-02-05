@@ -76,7 +76,7 @@ main {
 
 .icon {
   width: 2.5em;
-  margin: 0em 1.5em;
+  margin: 0em 1.5em 0.7em;
 }
 
 .description {
@@ -85,6 +85,7 @@ main {
 }
 
 .hobby-icons {
+  display: inline-flex;
   text-align: center;
   width: 100%;
   justify-content: space-around;
@@ -113,6 +114,7 @@ main {
   font-size: 12px;
   background: #fff;
   z-index: 1;
+  padding-left: 1.5em;
   a {
   color: #000;
   text-decoration: none;
