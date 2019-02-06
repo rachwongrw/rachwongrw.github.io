@@ -250,3 +250,13 @@ main {
     color: $blue;
   } 
 }
+
+@media (max-width: 768px) {
+  .project-img {
+    width: 80%;
+  }
+  .card.project.col-xs-12.col-sm-4 {
+    padding-bottom: 2em;
+    margin-bottom: 1.5em;
+  }
+}
