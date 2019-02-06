@@ -1,4 +1,4 @@
-$blue: #7ba7af; // #bde0e6 - colour from the CV!
+$blue: #7ba7af;
 
 main {
   font-family: pt sans, sans-serif;
@@ -101,7 +101,11 @@ main {
   }
 }
 
-/* SIDEBAR */
+ul {
+  padding-left: 1em;
+}
+
+/* ========================= SIDEBAR ========================= */
 
 #profile-pic {
   border: 0.7em solid whitesmoke;
@@ -203,6 +207,9 @@ main {
   }
 }
 
+
+/* ========================= MEDIA QUERIES ========================= */
+
 @media only screen and (max-width: 780px) {
   #sidebar {
     display: none;
@@ -257,5 +264,11 @@ main {
   }
   .col-sm-4 {
     padding-bottom: 2em;
+  }
+}
+
+@media (max-width: 1000px) {
+  main {
+    padding-right: 3em;
   }
 }

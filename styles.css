@@ -96,7 +96,11 @@ main #mobileContact {
   opacity: 0.7;
 }
 
-/* SIDEBAR */
+ul {
+  padding-left: 1em;
+}
+
+/* ========================= SIDEBAR ========================= */
 #profile-pic {
   border: 0.7em solid whitesmoke;
   border-radius: 50%;
@@ -192,6 +196,7 @@ main #mobileContact {
   cursor: pointer;
 }
 
+/* ========================= MEDIA QUERIES ========================= */
 @media only screen and (max-width: 780px) {
   #sidebar {
     display: none;
@@ -252,6 +257,11 @@ main #mobileContact {
 
   .col-sm-4 {
     padding-bottom: 2em;
+  }
+}
+@media (max-width: 1000px) {
+  main {
+    padding-right: 3em;
   }
 }
 
