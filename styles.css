@@ -245,5 +245,14 @@ main #mobileContact {
     color: #7ba7af;
   }
 }
+@media (max-width: 768px) {
+  .project-img {
+    width: 80%;
+  }
+
+  .col-sm-4 {
+    padding-bottom: 2em;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
