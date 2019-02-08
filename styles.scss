@@ -272,3 +272,9 @@ ul {
     margin-right: 3em;
   }
 }
+
+@media (max-width: 420px) {
+  .icon {
+    width: 1.5em;
+  }
+}
