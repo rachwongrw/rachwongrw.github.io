@@ -267,8 +267,8 @@ ul {
   }
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 780px) and (max-width: 1000px) {
   main {
-    padding-right: 3em;
+    margin-right: 3em;
   }
 }
