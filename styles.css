@@ -270,11 +270,7 @@ ul {
 }
 .mobile-icon {
   font-size: 1.5em;
-  margin: 0em 1em;
-}
-
-.mobile-icon-bar {
-  border-top: 1px solid #7ba7af;
+  margin: 1em 1em 0em 1em;
 }
 
 /*# sourceMappingURL=styles.css.map */
